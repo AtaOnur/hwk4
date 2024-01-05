@@ -1,1 +1,116 @@
+Q-1)
+
+Input:
+git config --global user.name "Ata Onur Özdemir"
+git config --global user.email "teknikplanlama12@gmail.com"
+git config --global core.editor "nano"
+
+git config --global user.name
+git config --global user.email
+git config --global core.editor
+
+Output:
+Ata Onur Özdemir
+teknikplanlama12@gmail.com
+nano
+
+Q-2)
+
+Input:
+git clone https://github.com/AtaOnur/hwk4.git
+ls -la
+
+Output:
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d--h--         5.01.2024     17:30                .git
+d-----         5.01.2024     18:11                hwk4
+-a----         5.01.2024     18:04              0 homework4.txt
+-a----         5.01.2024     17:30             46 README.md
+
+Q-3)
+
+Input (GitHub):
+[Işık University Software Engineering Department](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
+
+Output:
+https://github.com/AtaOnur/hwk4/blob/main/README.md
+
+Q-4)
+Input: cat .gitignore
+
+Output:
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+
+Q-5)
+Input:
+git branch feature-1
+git checkout feature-1
+cd hmk1
+
+git add .
+git commit -m "satisfying requirement one"
+
+git log feature-1
+ls -la
+git checkout main
+
+
+
+
+
+Output:
+git branch feature-1
+git checkout feature-1
+cd hmk1
+ls -la
+
+[feature-1 11452c9] satisfying requirement one
+ 2 files changed, 24 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 homework4.txt
+
+ commit 11452c9a9f1208f7a320a56e1c50c8863901c79c (HEAD -> feature-1)
+ Author: Ata Onur Özdemir <teknikplanlama12@gmail.com>
+ Date:   Fri Jan 5 18:29:23 2024 +0300
+
+     satisfying requirement one
+
+ commit 8345467bc97d864b35bb600e7ace0840f9658f0a (origin/main, origin/HEAD, main)
+ Author: AtaOnur <140383528+AtaOnur@users.noreply.github.com>
+ Date:   Fri Jan 5 17:24:21 2024 +0300
+
+Switched to branch 'main'
+A       -la
+M       hwk4/homework4.txt
+Your branch is up to date with 'origin/main'.
+
+
+
+
+
 
